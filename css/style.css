@@ -12,6 +12,7 @@
         --tbl-backgr: #f6f8f9;
         --tbl-bottone1: #47adf1;
         --tbl-bottone2: #cdd2d6;
+        --tbl-editorial: #45abe9;
     }
 
     body {
@@ -27,13 +28,13 @@
     }
 
     .contenitore_header {
-        padding: 10px;
+        padding: 2%;
     }
 
     .toboolist {
         display: inline-block;
         vertical-align: middle;
-        height: 50px;
+        height: 5%;
     }
 
     .toboolist.title {
@@ -45,30 +46,38 @@
 
 /* #region main */
 
+    /* #region contenitori */
+
     .cont1 {
         background-color: white;
         width: 80%;
         margin-top: 10%;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 10px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 10%;
     }
 
-    .cont2{
+    .cont1.cont2{
         margin-top: 1%;
     }
+
+    /* #endregion contenitori */
+
+    /* #region bottoni */
 
     .bottone {
         padding: 6px;
         border-radius: 5px;
+        font-weight: bold;
     }
 
     .bottone.task {
-        border: 0;
         color: white;
         background-color: var(--tbl-bottone1);
+        border-color: var(--tbl-bottone1);
+        border-style: solid;
     }
 
     .bottone.section {
@@ -77,5 +86,41 @@
         border-color: var(--tbl-bottone2);
         border-style: solid;
     }
+
+    /* #endregion bottoni */
+
+    /* #region contenitori task */
+
+    .cont3 {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .cont4 {
+        padding-bottom: 1%;
+    }
+
+    .cont5 {
+        padding-bottom: 1%;
+        vertical-align: middle;
+    }
+
+    /* #endregion contenitori task */
+
+    /* #region etichette */
+
+    .etichetta {
+        color: white;
+        padding: 1.5%;
+        border-radius: 8px;
+        font-size: 10px;
+        vertical-align: middle;
+    }
+
+    .etichetta.editorial {
+        background-color: var(--tbl-editorial);
+    }
+
+    /* #endregion etichette */
 
 /* #endregion main */
