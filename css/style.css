@@ -5,10 +5,13 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: sans-serif, Calibri;
     }
 
     :root {
         --tbl-backgr: #f6f8f9;
+        --tbl-bottone1: #47adf1;
+        --tbl-bottone2: #cdd2d6;
     }
 
     body {
@@ -45,14 +48,34 @@
     .cont1 {
         background-color: white;
         width: 80%;
-        margin-top: 50px;
+        margin-top: 10%;
         margin-left: auto;
         margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
     }
 
     .cont2{
-        margin-top: 5px;
+        margin-top: 1%;
     }
 
+    .bottone {
+        padding: 6px;
+        border-radius: 5px;
+    }
+
+    .bottone.task {
+        border: 0;
+        color: white;
+        background-color: var(--tbl-bottone1);
+    }
+
+    .bottone.section {
+        color: var(--tbl-bottone2);
+        background-color: white;
+        border-color: var(--tbl-bottone2);
+        border-style: solid;
+    }
 
 /* #endregion main */
