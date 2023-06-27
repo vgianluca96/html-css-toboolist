@@ -55,7 +55,7 @@
 
     .cont1 {
         background-color: white;
-        width: 80%;
+        width: 75%;
         margin-top: 10%;
         margin-left: auto;
         margin-right: auto;
@@ -97,15 +97,17 @@
     /* #region contenitori task */
 
     .cont3 {
-        padding-top: 5%;
-        padding-bottom: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
     }
 
     .cont4 {
+        font-size: 18px;
         padding-bottom: 1%;
     }
 
     .cont5 {
+        font-size: 15px;
         padding-bottom: 1%;
         vertical-align: middle;
     }
@@ -116,8 +118,8 @@
 
     .etichetta {
         color: white;
-        padding: 1.5%;
-        border-radius: 8px;
+        padding: 0.7%;
+        border-radius: 7px;
         font-size: 10px;
         vertical-align: middle;
     }
