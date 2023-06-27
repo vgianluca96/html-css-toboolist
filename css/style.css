@@ -14,7 +14,7 @@
         --tbl-bottone2: #cdd2d6;
         --tbl-editorial: #45abe9;
         --tbl-goals: #9c72e4;
-        --tbl-interview: #64c0a9;
+        --tbl-recruiting: #64c0a9;
         --tbl-mobile: #f29e33;
         --tbl-website: #d863a0;
         --tbl-sales: #b0c926;
@@ -56,7 +56,7 @@
     .cont1 {
         background-color: white;
         width: 75%;
-        margin-top: 10%;
+        margin-top: 5%;
         margin-left: auto;
         margin-right: auto;
         padding-top: 2%;
@@ -132,8 +132,8 @@
         background-color: var(--tbl-goals);
     }
 
-    .etichetta.interview {
-        background-color: var(--tbl-interview);
+    .etichetta.recruiting {
+        background-color: var(--tbl-recruiting);
     }
 
     .etichetta.mobile {
