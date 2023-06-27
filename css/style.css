@@ -13,6 +13,11 @@
         --tbl-bottone1: #47adf1;
         --tbl-bottone2: #cdd2d6;
         --tbl-editorial: #45abe9;
+        --tbl-goals: #9c72e4;
+        --tbl-interview: #64c0a9;
+        --tbl-mobile: #f29e33;
+        --tbl-website: #d863a0;
+        --tbl-sales: #b0c926;
     }
 
     body {
@@ -119,6 +124,26 @@
 
     .etichetta.editorial {
         background-color: var(--tbl-editorial);
+    }
+
+    .etichetta.goals {
+        background-color: var(--tbl-goals);
+    }
+
+    .etichetta.interview {
+        background-color: var(--tbl-interview);
+    }
+
+    .etichetta.mobile {
+        background-color: var(--tbl-mobile);
+    }
+
+    .etichetta.website {
+        background-color: var(--tbl-website);
+    }
+
+    .etichetta.sales {
+        background-color: var(--tbl-sales);
     }
 
     /* #endregion etichette */
